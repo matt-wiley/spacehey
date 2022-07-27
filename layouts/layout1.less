@@ -1,0 +1,63 @@
+:root {
+    --button-color: rgb(65, 105, 225);
+    --button-hover-color: rgb(99, 148, 237);
+}
+
+@media(min-width: 1200px) {
+    .container {
+        width: 1100px;
+    }
+}
+
+.profile-pic {
+    width: 100%;
+    height: 400px !important;
+    background-image: url(https://media.giphy.com/media/uWqkrjdWGyyQEsJsjC/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    img {
+        display: block;
+        margin: auto;
+        width: 70% !important;
+        border-radius: 80px;
+        border-width: 5px;
+        border-style: solid !important;
+        border-color: white;
+        margin-top: 115px;
+    }
+}
+
+.contact {
+    border: 0 !important;
+
+    .heading {
+        display: none;
+    }
+    .inner {
+        padding: 10px;
+
+        .f-row {
+            margin: 0;
+        }
+        .f-col {
+            padding: 2px;
+        }
+        a {
+            padding: 4px 8px;
+            border-radius: 4px;
+            border-color: transparent;
+            margin-top: 2px;
+            display: block;
+            text-decoration: none;
+            color: white;
+        }
+        a:link, a:active, a:visited {
+            background-color: var(--button-color);
+        }
+        a:hover {
+            background-color: var(--button-hover-color);
+        }
+    }
+}
