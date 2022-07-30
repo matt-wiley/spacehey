@@ -16,10 +16,10 @@ function main {
         while IFS="" read -r line || [ -n "$line" ]
         do
             # echo $line
-            placeholder="$(echo $line | grep -Eo @@[a-z]+)"
+            placeholder="$(echo $line | grep -Eo ~~[a-z]+)"
             if [ -n "$placeholder" ]; then 
                 case "$placeholder" in 
-                    "@@style")
+                    "~~style")
                         style_output="gen/style.css"
                         lessc "style.less" $style_output
                         echo "<style>$(cat $style_output)</style>" >> $output_name

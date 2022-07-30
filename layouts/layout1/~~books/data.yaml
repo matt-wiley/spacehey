@@ -1,0 +1,25 @@
+books:
+- author: Neil Gaiman
+  cover: https://covers.openlibrary.org/b/id/11223041-M.jpg
+  title: The Ocean at the End of the Lane
+  url: https://openlibrary.org/books/OL32582296M/The_Ocean_at_the_End_of_the_Lane
+- author: Cormac McCarthy
+  cover: https://covers.openlibrary.org/b/id/9557220-M.jpg
+  title: The Road
+  url: https://openlibrary.org/books/OL28053371M/The_Road
+- author: Chuck Palahniuk
+  cover: https://covers.openlibrary.org/b/id/8826491-M.jpg
+  title: Survivor
+  url: https://openlibrary.org/books/OL27363370M/Survivor
+- author: Drew Magary
+  cover: https://covers.openlibrary.org/b/id/8876158-M.jpg
+  title: The Hike
+  url: https://openlibrary.org/books/OL27414270M/The_Hike
+- author: Mark Z. Danielewski
+  cover: https://covers.openlibrary.org/b/id/228503-M.jpg
+  title: Mark Z. Danielewski's House of leaves
+  url: https://openlibrary.org/books/OL42742M/Mark_Z._Danielewski's_House_of_leaves
+- author: David Wong
+  cover: https://covers.openlibrary.org/b/id/12414792-M.jpg
+  title: Futuristic Violence and Fancy Suits
+  url: https://openlibrary.org/books/OL34159621M/Futuristic_Violence_and_Fancy_Suits
