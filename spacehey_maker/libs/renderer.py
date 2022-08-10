@@ -25,7 +25,12 @@ class Renderer():
             template_path = self._template_catalog.get_template_path(template_name)
             return self._get_contents(template_path)
         else:
-            template_path = f"{self._user_template_base_dir}/{template}"
+            if self._user_template_base_dir is None or self._user_template_base_dir == "":
+                base_path = ""
+            else:
+                base_path = f"{self._user_template_base_dir}/"
+                
+            template_path = f"{base_path}{template}"
             return self._get_contents(template_path)
 
 
