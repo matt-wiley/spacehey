@@ -1,0 +1,16 @@
+<div class="book_container">
+{%- for book in books %}
+    <!--
+    {{ book.title }}
+    {{ book.author }}
+    -->
+    <a class="book_link" href="{{ book.url }}" title="'{{ book.title }}' by {{ book.author }}">
+        <img class="book_image" src="{{ book.cover}}" height="125" alt="'{{ book.title }}' by {{ book.author }}" />
+    </a>
+{%- endfor %}
+</div>
+<style>
+.book_container .book_image {
+  border-radius: 4px;
+}
+</style>

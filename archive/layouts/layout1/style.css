@@ -1,0 +1,79 @@
+:root {
+  --navy-blue: #1e097cff;
+  --han-purple: #3c30f1ff;
+  --cyan-process: #3cc1f1ff;
+  --dark-cyan: #298d8dff;
+  --light-coral: #f56e6eff;
+  --paradise-pink: #f1306dff;
+  --magenta: #f130f1ff;
+  --bg-gradient: linear-gradient(0deg, #1e097cff, #3c30f1ff, #3cc1f1ff, #298d8dff, #f56e6eff, #f1306dff, #f130f1ff);
+  --corner-radius: 4px;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+  }
+}
+body {
+  background-image: var(--bg-gradient);
+}
+[itemprop=name] h1 {
+  background-color: var(--navy-blue);
+  color: white;
+  padding: 2px 0;
+  text-align: center;
+  border-radius: var(--corner-radius);
+}
+.profile-pic {
+  width: 100%;
+  height: 400px !important;
+  background-image: url(https://media.giphy.com/media/uWqkrjdWGyyQEsJsjC/giphy.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.profile-pic img {
+  display: block;
+  margin: auto;
+  width: 70% !important;
+  border-radius: 80px;
+  border-width: 5px;
+  border-style: solid !important;
+  border-color: white;
+  margin-top: 115px;
+}
+.contact {
+  border: 0 !important;
+}
+.contact .heading {
+  display: none;
+}
+.contact .inner {
+  padding: 10px;
+}
+.contact .inner .f-row {
+  margin: 0;
+}
+.contact .inner .f-col {
+  padding: 2px;
+}
+.contact .inner a {
+  padding: 4px 8px;
+  border-radius: var(--corner-radius);
+  border-color: transparent;
+  margin-top: 2px;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.contact .inner a:link,
+.contact .inner a:active,
+.contact .inner a:visited {
+  background-color: var(--navy-blue);
+}
+.contact .inner a:hover {
+  background-color: var(--han-purple);
+}
+.book_container .book_image {
+  border-radius: var(--corner-radius);
+}

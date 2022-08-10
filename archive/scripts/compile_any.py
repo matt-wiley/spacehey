@@ -27,7 +27,7 @@ program:
 """
 
 
-def render(template_path,data, output_path):
+def render(template_path, data, output_path):
     env = Environment(
         loader=FileSystemLoader( os.path.dirname(template_path) ),
         autoescape=select_autoescape()
