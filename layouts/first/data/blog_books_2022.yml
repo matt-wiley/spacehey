@@ -1,0 +1,49 @@
+books:
+- author: Sean M. Carroll
+  cover: https://covers.openlibrary.org/b/id/12748172-M.jpg
+  title: The Big Picture
+  url: https://openlibrary.org/books/OL37877117M/The_Big_Picture
+- author: Jesse Ball
+  cover: https://covers.openlibrary.org/b/id/12845501-M.jpg
+  title: Census
+  url: https://openlibrary.org/books/OL26947884M/Census
+- author: Iain M. Banks
+  cover: https://covers.openlibrary.org/b/id/427635-M.jpg
+  title: The wasp factory
+  url: https://openlibrary.org/books/OL349126M/The_wasp_factory
+- author: William F. Gibson
+  cover: https://covers.openlibrary.org/b/id/283860-M.jpg
+  title: Neuromancer
+  url: https://openlibrary.org/books/OL3963678M/Neuromancer
+- author: Anthony Doerr
+  cover: https://covers.openlibrary.org/b/id/10578603-M.jpg
+  title: Cloud Cuckoo Land
+  url: https://openlibrary.org/books/OL31891707M/Cloud_Cuckoo_Land
+- author: Emily St. John Mandel
+  cover: https://covers.openlibrary.org/b/id/9352504-M.jpg
+  title: Station Eleven
+  url: https://openlibrary.org/books/OL27964135M/Station_Eleven
+- author: Drew Magary
+  cover: https://covers.openlibrary.org/b/id/11502398-M.jpg
+  title: The Night the Lights Went Out
+  url: https://openlibrary.org/books/OL32869377M/The_Night_the_Lights_Went_Out
+- author: Amal El-Mohtar
+  cover: https://covers.openlibrary.org/b/id/10304444-M.jpg
+  title: This Is How You Lose the Time War
+  url: https://openlibrary.org/books/OL28364975M/This_Is_How_You_Lose_the_Time_War
+- author: Chiara Marletto
+  cover: https://covers.openlibrary.org/b/id/10894934-M.jpg
+  title: The Science of Can and Can't
+  url: https://openlibrary.org/books/OL32266490M/The_Science_of_Can_and_Can't
+- author: H. G. Wells
+  cover: https://covers.openlibrary.org/b/id/606161-M.jpg
+  title: When the sleeper wakes
+  url: https://openlibrary.org/books/OL3688095M/When_the_sleeper_wakes
+- author: Richard Schwartz Ph.D.
+  cover: https://covers.openlibrary.org/b/id/11984471-M.jpg
+  title: No Bad Parts
+  url: https://openlibrary.org/books/OL33871079M/No_Bad_Parts
+- author: Exurb1a
+  cover: https://covers.openlibrary.org/b/id/12845498-M.jpg
+  title: 'Logic Beach: Part I'
+  url: https://openlibrary.org/books/OL39210894M/Logic_Beach_Part_I
